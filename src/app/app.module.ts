@@ -9,6 +9,13 @@ import { HomeComponent } from './components/home/home.component';
 import { LoaderComponent } from './components/loader/loader.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { SiteLogoComponent } from './components/site-logo/site-logo.component';
+import { MediaCardComponent } from './components/cards/media-card/media-card.component';
+import { GridComponent } from './components/cards/grid/grid.component';
+import { MoviesComponent } from './components/movies/movies.component';
+import { ShowsComponent } from './components/shows/shows.component';
+import { WatchlistComponent } from './components/watchlist/watchlist.component';
+import { MovieDetailsComponent } from './components/movie-details/movie-details.component';
+import { ShowDetailsComponent } from './components/show-details/show-details.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +25,14 @@ import { SiteLogoComponent } from './components/site-logo/site-logo.component';
     HomeComponent,
     LoaderComponent,
     PageNotFoundComponent,
-    SiteLogoComponent
+    SiteLogoComponent,
+    MediaCardComponent,
+    GridComponent,
+    MoviesComponent,
+    ShowsComponent,
+    WatchlistComponent,
+    MovieDetailsComponent,
+    ShowDetailsComponent
   ],
   imports: [
     BrowserModule,
