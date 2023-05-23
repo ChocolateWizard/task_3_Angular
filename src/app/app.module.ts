@@ -20,6 +20,7 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { AppStoreModule } from 'src/store/AppStoreModule';
 import { ActorGridComponent } from './components/actor/actor-grid/actor-grid.component';
 import { ActorCardComponent } from './components/actor/actor-card/actor-card.component';
+import { ScalePipe } from './pipes/scale.pipe';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { ActorCardComponent } from './components/actor/actor-card/actor-card.com
     ShowDetailsComponent,
     ActorGridComponent,
     ActorCardComponent,
+    ScalePipe,
   ],
   imports: [
     BrowserModule,
