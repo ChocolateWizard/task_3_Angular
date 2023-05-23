@@ -19,10 +19,10 @@ export class MediaCardComponent {
   ngOnInit(){
     switch(this.media.mediaType){
       case "movie":
-        this.detailsPageUrl="movie/"+this.media.id;
+        this.detailsPageUrl="/movie/"+this.media.id;
         break;
         case "show":
-          this.detailsPageUrl="show/"+this.media.id;
+          this.detailsPageUrl="/show/"+this.media.id;
         break;
       default:
         this.detailsPageUrl="invalidUrl";
