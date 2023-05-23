@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Media } from 'src/app/model/media/Media';
-import { DatabaseService } from 'src/app/services/database-service.service';
+import { DatabaseService } from 'src/app/services/database.service';
 
 @Component({
   selector: 'app-home',

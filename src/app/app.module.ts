@@ -18,6 +18,8 @@ import { MovieDetailsComponent } from './components/movie-details/movie-details.
 import { ShowDetailsComponent } from './components/show-details/show-details.component';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { AppStoreModule } from 'src/store/AppStoreModule';
+import { ActorGridComponent } from './components/actor/actor-grid/actor-grid.component';
+import { ActorCardComponent } from './components/actor/actor-card/actor-card.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +37,8 @@ import { AppStoreModule } from 'src/store/AppStoreModule';
     WatchlistComponent,
     MovieDetailsComponent,
     ShowDetailsComponent,
+    ActorGridComponent,
+    ActorCardComponent,
   ],
   imports: [
     BrowserModule,
