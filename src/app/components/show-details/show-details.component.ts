@@ -7,7 +7,7 @@ import { ValidatorService } from 'src/app/services/validator.service';
 @Component({
   selector: 'app-show-details',
   templateUrl: './show-details.component.html',
-  styleUrls: ['./show-details.component.css']
+  styleUrls: ['./show-details.component.css'],
 })
 export class ShowDetailsComponent {
   public show: Media | undefined;
@@ -23,6 +23,34 @@ export class ShowDetailsComponent {
       this.show = this.dbService.getShow(idNum);
     } else {
       this.show = undefined;
+    }
+  }
+  isShowDefined() {
+    return this.show !== undefined;
+  }
+
+  isShowInWatchlist() {
+    if (this.show !== undefined) {
+      return this.dbService.isMediaInWatchlist(this.show);
+    }
+    return false;
+  }
+  getButtonClass() {
+    if (this.isShowInWatchlist()) {
+      return 'flex items-center rounded font-semibold px-5 py-4  transition ease-in-out duration-150 bg-onyx-tint text-onyx-primary-10 hover:bg-onyx-primary-30';
+    }
+    return 'flex items-center rounded font-semibold px-5 py-4 transition ease-in-out duration-150 bg-mellon-primary text-onyx-tint hover:bg-mellon-shade';
+  }
+
+  buttonClicked() {
+    if (this.show !== undefined) {
+      if (this.isShowInWatchlist()) {
+        //Show is already in watchlist. REMOVE IT
+        this.dbService.removeMediaFromWatchlist(this.show);
+      } else {
+        //Show isn't in watchlist. ADD IT
+        this.dbService.addMediaToWatchlist(this.show);
+      }
     }
   }
 }

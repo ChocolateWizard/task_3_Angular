@@ -26,7 +26,32 @@ export class MovieDetailsComponent {
     }
   }
 
+  isMovieDefined() {
+    return this.movie !== undefined;
+  }
 
+  isMovieInWatchlist() {
+    if (this.movie !== undefined) {
+      return this.dbService.isMediaInWatchlist(this.movie);
+    }
+    return false;
+  }
+  getButtonClass() {
+    if (this.isMovieInWatchlist()) {
+      return 'flex items-center rounded font-semibold px-5 py-4  transition ease-in-out duration-150 bg-onyx-tint text-onyx-primary-10 hover:bg-onyx-primary-30';
+    }
+    return 'flex items-center rounded font-semibold px-5 py-4 transition ease-in-out duration-150 bg-mellon-primary text-onyx-tint hover:bg-mellon-shade';
+  }
 
-
+  buttonClicked() {
+    if (this.movie !== undefined) {
+      if (this.isMovieInWatchlist()) {
+        //Movie is already in watchlist. REMOVE IT
+        this.dbService.removeMediaFromWatchlist(this.movie);
+      } else {
+        //Movie isn't in watchlist. ADD IT
+        this.dbService.addMediaToWatchlist(this.movie);
+      }
+    }
+  }
 }

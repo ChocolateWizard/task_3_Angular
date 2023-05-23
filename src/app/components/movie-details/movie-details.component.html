@@ -46,7 +46,9 @@
 
         <div class="mt-12">
           <button
-            class="flex items-center rounded font-semibold px-5 py-4 transition ease-in-out duration-150 bg-mellon-primary text-onyx-tint hover:bg-mellon-shade"
+            [ngClass]="getButtonClass()"
+            [disabled]="!isMovieDefined()"
+            (click)="buttonClicked()"
           >
             <svg
               className="bi bi-play-circle-fill fill-onyx-shade"
@@ -59,7 +61,13 @@
                 d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"
               />
             </svg>
-            <span className="ml-2"> Add to watchlist </span>
+            <span className="ml-2">
+              {{
+                isMovieInWatchlist()
+                  ? "Remove from watchlist"
+                  : "Add to watchlist"
+              }}
+            </span>
           </button>
         </div>
       </div>

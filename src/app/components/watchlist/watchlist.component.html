@@ -1,1 +1,18 @@
-<p>watchlist works!</p>
+<div class="container mx-auto px-4 py-16">
+  <div>
+    <h2
+      class="uppercase tracking-wider text-mellon-primary text-lg font-semibold"
+    >
+      My Watchlist
+    </h2>
+    <h2
+      *ngIf="watchlist.length === 0; else gridMediaTemplate"
+      class="mt-5 uppercase tracking-wider text-onyx-primary-30 text-lg font-bold"
+    >
+      Watchlist is currently empty
+    </h2>
+    <ng-template #gridMediaTemplate>
+      <app-grid [media]="watchlist"></app-grid>
+    </ng-template>
+  </div>
+</div>
