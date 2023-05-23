@@ -21,4 +21,10 @@ export class DatabaseService {
   getAllMedia(): Media[] {
     return this.movies.concat(this.shows);
   }
+  getMovie(id:number):Media|undefined{
+   return this.movies.find(movie=>movie.id===id);
+  }
+  getShow(id:number):Media|undefined{
+    return this.shows.find(show=>show.id===id);
+   }
 }
