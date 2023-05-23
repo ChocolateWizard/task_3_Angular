@@ -1,20 +1,20 @@
 [
     {
-        "id": 502356,
-        "title": "The Super Mario Bros. Movie",
-        "releaseDate": "2023-04-05",
-        "coverPath":"https://image.tmdb.org/t/p/original/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg",
-        "rating": 7.7,
+        "id": 1,
+        "title": "Lost",
+        "releaseDate": "2004-09-22",
+        "coverPath":"https://m.media-amazon.com/images/M/MV5BNzhlY2E5NDUtYjJjYy00ODg3LWFkZWQtYTVmMzU4ZWZmOWJkXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg",
+        "rating": 8.3,
         "description":
-          "While working underground to fix a water main, Brooklyn plumbers—and brothers—Mario and Luigi are transported down a mysterious pipe and wander into a magical new world. But when the brothers are separated, Mario embarks on an epic quest to find Luigi.",
+          "The survivors of a plane crash are forced to work together in order to survive on a seemingly deserted tropical island.",
         "numberOfSeasons": "6",
-        "creatorsAsText":"",
+        "creatorsAsText":"J.J. Abrams, Jeffrey Lieber, Damon Lindelof",
         "directorsAsText":
-          "Michael Jelenic, Pierre Leduc, Aaron Horvath, Fabien Polack",
+          "",
         "writersAsText":
-          "Ed Skudder, Shigeru Miyamoto, Matt Fogel, Calvin Tsang, Jed Diffenderfer",
+          "",
         "mediaType": "show",
-        "genresAsText": "Animation, Family, Adventure, Fantasy, Comedy",
+        "genresAsText": "Adventure, Drama, Fantasy",
         "cast": [
           {
             "name": "Chris Pratt",
@@ -49,21 +49,21 @@
         ]
       },
       {
-        "id": 502357,
-        "title": "The Super Mario Bros. Movie",
-        "releaseDate": "2023-04-05",
-        "coverPath":"https://image.tmdb.org/t/p/original/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg",
-        "rating": 7.7,
+        "id": 2,
+        "title": "Arcane",
+        "releaseDate": "2021-11-06",
+        "coverPath":"https://m.media-amazon.com/images/M/MV5BYmU5OWM5ZTAtNjUzOC00NmUyLTgyOWMtMjlkNjdlMDAzMzU1XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+        "rating": 9.0,
         "description":
-          "While working underground to fix a water main, Brooklyn plumbers—and brothers—Mario and Luigi are transported down a mysterious pipe and wander into a magical new world. But when the brothers are separated, Mario embarks on an epic quest to find Luigi.",
-        "numberOfSeasons": "6",
-        "creatorsAsText":"",
+          "Set in Utopian Piltover and the oppressed underground of Zaun, the story follows the origins of two iconic League Of Legends champions and the power that will tear them apart.",
+        "numberOfSeasons": "1",
+        "creatorsAsText":"Christian Linke, Alex Yee",
         "directorsAsText":
-          "Michael Jelenic, Pierre Leduc, Aaron Horvath, Fabien Polack",
+          "",
         "writersAsText":
-          "Ed Skudder, Shigeru Miyamoto, Matt Fogel, Calvin Tsang, Jed Diffenderfer",
+          "",
         "mediaType": "show",
-        "genresAsText": "Animation, Family, Adventure, Fantasy, Comedy",
+        "genresAsText": "Animation, Action, Adventure",
         "cast": [
           {
             "name": "Chris Pratt",
@@ -98,21 +98,21 @@
         ]
       },
       {
-        "id": 502358,
-        "title": "The Super Mario Bros. Movie",
-        "releaseDate": "2023-04-05",
-        "coverPath":"https://image.tmdb.org/t/p/original/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg",
-        "rating": 7.7,
+        "id": 3,
+        "title": "Game of Thrones",
+        "releaseDate": "2011-04-17",
+        "coverPath":"https://m.media-amazon.com/images/M/MV5BYTRiNDQwYzAtMzVlZS00NTI5LWJjYjUtMzkwNTUzMWMxZTllXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_.jpg",
+        "rating": 9.2,
         "description":
-          "While working underground to fix a water main, Brooklyn plumbers—and brothers—Mario and Luigi are transported down a mysterious pipe and wander into a magical new world. But when the brothers are separated, Mario embarks on an epic quest to find Luigi.",
-        "numberOfSeasons": "6",
-        "creatorsAsText":"",
+          "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
+        "numberOfSeasons": "8",
+        "creatorsAsText":"David Benioff, D.B. Weiss",
         "directorsAsText":
-          "Michael Jelenic, Pierre Leduc, Aaron Horvath, Fabien Polack",
+          "",
         "writersAsText":
-          "Ed Skudder, Shigeru Miyamoto, Matt Fogel, Calvin Tsang, Jed Diffenderfer",
+          "",
         "mediaType": "show",
-        "genresAsText": "Animation, Family, Adventure, Fantasy, Comedy",
+        "genresAsText": "Action, Adventure, Drama",
         "cast": [
           {
             "name": "Chris Pratt",
@@ -147,21 +147,21 @@
         ]
       },
       {
-        "id": 502359,
-        "title": "The Super Mario Bros. Movie",
-        "releaseDate": "2023-04-05",
-        "coverPath":"https://image.tmdb.org/t/p/original/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg",
-        "rating": 7.7,
+        "id": 4,
+        "title": "Moral Orel",
+        "releaseDate": "2005-12-13",
+        "coverPath":"https://m.media-amazon.com/images/M/MV5BYmZjZjg3MmEtNWU5YS00ODIxLTk5ZGQtNDkyMGJmM2JiNzZlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
+        "rating": 8.0,
         "description":
-          "While working underground to fix a water main, Brooklyn plumbers—and brothers—Mario and Luigi are transported down a mysterious pipe and wander into a magical new world. But when the brothers are separated, Mario embarks on an epic quest to find Luigi.",
-        "numberOfSeasons": "6",
-        "creatorsAsText":"",
+          "A parody of past religious-geared animated shows starring Orel, an optimistic God-fearing young boy in a world of cynicism.",
+        "numberOfSeasons": "3",
+        "creatorsAsText":"Dino Stamatopoulos",
         "directorsAsText":
-          "Michael Jelenic, Pierre Leduc, Aaron Horvath, Fabien Polack",
+          "",
         "writersAsText":
-          "Ed Skudder, Shigeru Miyamoto, Matt Fogel, Calvin Tsang, Jed Diffenderfer",
+          "",
         "mediaType": "show",
-        "genresAsText": "Animation, Family, Adventure, Fantasy, Comedy",
+        "genresAsText": "Animation, Comedy, Drama",
         "cast": [
           {
             "name": "Chris Pratt",

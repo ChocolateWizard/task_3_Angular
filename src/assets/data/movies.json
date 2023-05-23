@@ -1,6 +1,6 @@
 [
     {
-        "id": 502356,
+        "id": 1,
         "title": "The Super Mario Bros. Movie",
         "releaseDate": "2023-04-05",
         "coverPath":"https://image.tmdb.org/t/p/original/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg",
@@ -49,21 +49,21 @@
         ]
       },
       {
-        "id": 502357,
-        "title": "The Super Mario Bros. Movie",
-        "releaseDate": "2023-04-05",
-        "coverPath":"https://image.tmdb.org/t/p/original/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg",
-        "rating": 7.7,
+        "id": 2,
+        "title": "The Lighthouse",
+        "releaseDate": "2019-04-18",
+        "coverPath":"https://m.media-amazon.com/images/M/MV5BZmE0MGJhNmYtOWNjYi00Njc5LWE2YjEtMWMxZTVmODUwMmMxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+        "rating": 7.4,
         "description":
-          "While working underground to fix a water main, Brooklyn plumbers—and brothers—Mario and Luigi are transported down a mysterious pipe and wander into a magical new world. But when the brothers are separated, Mario embarks on an epic quest to find Luigi.",
+          "Two lighthouse keepers try to maintain their sanity while living on a remote and mysterious New England island in the 1890s",
         "numberOfSeasons": "",
         "creatorsAsText":"",
         "directorsAsText":
-          "Michael Jelenic, Pierre Leduc, Aaron Horvath, Fabien Polack",
+          "Robert Eggers",
         "writersAsText":
-          "Ed Skudder, Shigeru Miyamoto, Matt Fogel, Calvin Tsang, Jed Diffenderfer",
+          "Robert Eggers, Max Eggers",
         "mediaType": "movie",
-        "genresAsText": "Animation, Family, Adventure, Fantasy, Comedy",
+        "genresAsText": "Drama, Fantasy, Mystery",
         "cast": [
           {
             "name": "Chris Pratt",
@@ -98,21 +98,21 @@
         ]
       },
       {
-        "id": 502358,
-        "title": "The Super Mario Bros. Movie",
-        "releaseDate": "2023-04-05",
-        "coverPath":"https://image.tmdb.org/t/p/original/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg",
-        "rating": 7.7,
+        "id": 3,
+        "title": "Eyes Wide Shut",
+        "releaseDate": "1999-07-16",
+        "coverPath":"https://m.media-amazon.com/images/M/MV5BMzQ3NWI0NDAtYTE2Zi00YWM4LWIyNGQtZmJlZmZiYzA2MmU2XkEyXkFqcGdeQXVyMjU0MjU2MjI@._V1_.jpg",
+        "rating": 7.5,
         "description":
-          "While working underground to fix a water main, Brooklyn plumbers—and brothers—Mario and Luigi are transported down a mysterious pipe and wander into a magical new world. But when the brothers are separated, Mario embarks on an epic quest to find Luigi.",
+          "A Manhattan doctor embarks on a bizarre, night-long odyssey after his wife's admission of unfulfilled longing",
         "numberOfSeasons": "",
         "creatorsAsText":"",
         "directorsAsText":
-          "Michael Jelenic, Pierre Leduc, Aaron Horvath, Fabien Polack",
+          "Stanley Kubrick",
         "writersAsText":
-          "Ed Skudder, Shigeru Miyamoto, Matt Fogel, Calvin Tsang, Jed Diffenderfer",
+          "Stanley Kubrick, Frederic Raphael, Arthur Schnitzler",
         "mediaType": "movie",
-        "genresAsText": "Animation, Family, Adventure, Fantasy, Comedy",
+        "genresAsText": "Drama, Mystery, Thriller",
         "cast": [
           {
             "name": "Chris Pratt",
@@ -147,21 +147,168 @@
         ]
       },
       {
-        "id": 502359,
-        "title": "The Super Mario Bros. Movie",
-        "releaseDate": "2023-04-05",
-        "coverPath":"https://image.tmdb.org/t/p/original/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg",
-        "rating": 7.7,
+        "id": 4,
+        "title": "No Country for Old Men",
+        "releaseDate": "2007-11-09",
+        "coverPath":"https://m.media-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_.jpg",
+        "rating": 8.2,
         "description":
-          "While working underground to fix a water main, Brooklyn plumbers—and brothers—Mario and Luigi are transported down a mysterious pipe and wander into a magical new world. But when the brothers are separated, Mario embarks on an epic quest to find Luigi.",
+          "Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash near the Rio Grande",
         "numberOfSeasons": "",
         "creatorsAsText":"",
         "directorsAsText":
-          "Michael Jelenic, Pierre Leduc, Aaron Horvath, Fabien Polack",
+          "Ethan Coen, Joel Coen",
         "writersAsText":
-          "Ed Skudder, Shigeru Miyamoto, Matt Fogel, Calvin Tsang, Jed Diffenderfer",
+          "Joel Coen, Ethan Coen, Cormac McCarthy",
         "mediaType": "movie",
-        "genresAsText": "Animation, Family, Adventure, Fantasy, Comedy",
+        "genresAsText": "Crime, Drama, Thriller",
+        "cast": [
+          {
+            "name": "Chris Pratt",
+            "roles": "Mario (voice)",
+            "coverPath":  ""
+          },
+          {
+            "name": "Charlie Day",
+            "roles": "Luigi (voice)",
+            "coverPath":  ""
+          },
+          {
+            "name": "Anya Taylor-Joy",
+            "roles": "Princess Peach (voice)",
+            "coverPath":  ""
+          },
+          {
+            "name": "Jack Black",
+            "roles": "Bowser (voice)",
+            "coverPath":  ""
+          },
+          {
+            "name": "Keegan-Michael Key",
+            "roles": "Toad (voice)",
+            "coverPath":  ""
+          },
+          {
+            "name": "Seth Rogen",
+            "roles": "Donkey Kong (voice)",
+            "coverPath":  ""
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "The Shining",
+        "releaseDate": "1980-06-23",
+        "coverPath":"https://m.media-amazon.com/images/M/MV5BZWFlYmY2MGEtZjVkYS00YzU4LTg0YjQtYzY1ZGE3NTA5NGQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+        "rating": 8.4,
+        "description":
+          "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future",
+        "numberOfSeasons": "",
+        "creatorsAsText":"",
+        "directorsAsText":
+          "Stanley Kubrick",
+        "writersAsText":
+          "Stephen King, Stanley Kubrick, Diane Johnson",
+        "mediaType": "movie",
+        "genresAsText": "Drama, Horror",
+        "cast": [
+          {
+            "name": "Chris Pratt",
+            "roles": "Mario (voice)",
+            "coverPath":  ""
+          },
+          {
+            "name": "Charlie Day",
+            "roles": "Luigi (voice)",
+            "coverPath":  ""
+          },
+          {
+            "name": "Anya Taylor-Joy",
+            "roles": "Princess Peach (voice)",
+            "coverPath":  ""
+          },
+          {
+            "name": "Jack Black",
+            "roles": "Bowser (voice)",
+            "coverPath":  ""
+          },
+          {
+            "name": "Keegan-Michael Key",
+            "roles": "Toad (voice)",
+            "coverPath":  ""
+          },
+          {
+            "name": "Seth Rogen",
+            "roles": "Donkey Kong (voice)",
+            "coverPath":  ""
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Mulholland Drive",
+        "releaseDate": "2001-05-16",
+        "coverPath":"https://m.media-amazon.com/images/M/MV5BYTRiMzg4NDItNTc3Zi00NjBjLTgwOWYtOGZjMTFmNGU4ODY4XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
+        "rating": 7.9,
+        "description":
+          "After a car wreck on the winding Mulholland Drive renders a woman amnesiac, she and a perky Hollywood-hopeful search for clues and answers across Los Angeles in a twisting venture beyond dreams and reality",
+        "numberOfSeasons": "",
+        "creatorsAsText":"",
+        "directorsAsText":
+          "David Lynch",
+        "writersAsText":
+          "David Lynch",
+        "mediaType": "movie",
+        "genresAsText": "Drama, Mystery, Thriller",
+        "cast": [
+          {
+            "name": "Chris Pratt",
+            "roles": "Mario (voice)",
+            "coverPath":  ""
+          },
+          {
+            "name": "Charlie Day",
+            "roles": "Luigi (voice)",
+            "coverPath":  ""
+          },
+          {
+            "name": "Anya Taylor-Joy",
+            "roles": "Princess Peach (voice)",
+            "coverPath":  ""
+          },
+          {
+            "name": "Jack Black",
+            "roles": "Bowser (voice)",
+            "coverPath":  ""
+          },
+          {
+            "name": "Keegan-Michael Key",
+            "roles": "Toad (voice)",
+            "coverPath":  ""
+          },
+          {
+            "name": "Seth Rogen",
+            "roles": "Donkey Kong (voice)",
+            "coverPath":  ""
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "The Tenant",
+        "releaseDate": "1976-05-24",
+        "coverPath":"https://m.media-amazon.com/images/M/MV5BOWJlYzBjMDQtOGRhOS00OGZjLWEwMjQtY2E0MzI0ZDllYWNmXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
+        "rating": 7.6,
+        "description":
+          "A bureaucrat rents a Paris apartment where he finds himself drawn into a rabbit hole of dangerous paranoia",
+        "numberOfSeasons": "",
+        "creatorsAsText":"",
+        "directorsAsText":
+          "Roman Polanski",
+        "writersAsText":
+          "Roland Topor, Gérard Brach, Roman Polanski",
+        "mediaType": "movie",
+        "genresAsText": "Drama, Thriller",
         "cast": [
           {
             "name": "Chris Pratt",
