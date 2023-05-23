@@ -1,4 +1,5 @@
 import { Media } from 'src/app/model/media/Media';
+import movies from './movies.json';
 
 export const moviesData: Media[] = [
   {

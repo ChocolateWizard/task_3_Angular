@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { moviesData, showsData } from 'src/assets/data/data';
 import { Media } from 'src/app/model/media/Media';
+import { DatabaseService } from 'src/app/services/database-service.service';
 
 @Component({
   selector: 'app-home',
@@ -8,9 +8,12 @@ import { Media } from 'src/app/model/media/Media';
   styleUrls: ['./home.component.css'],
 })
 export class HomeComponent {
-  movies: Media[] = moviesData;
-  shows: Media[] = showsData;
+  movies: Media[];
+  shows: Media[];
 
-  // movies: Media[] = [];
-  // shows: Media[] = [];
+  constructor(private dbService:DatabaseService){
+    this.movies=dbService.getAllMovies();
+    this.shows=dbService.getAllShows();
+  }
+
 }
