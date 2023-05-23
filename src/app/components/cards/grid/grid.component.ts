@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Media } from 'src/app/model/media/Media';
 
 @Component({
   selector: 'app-grid',
@@ -6,5 +7,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./grid.component.css'],
 })
 export class GridComponent {
-  @Input() media: [] = [];
+  @Input() media: Media[] = [];
 }

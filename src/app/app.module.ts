@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, isDevMode } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -16,6 +16,8 @@ import { ShowsComponent } from './components/shows/shows.component';
 import { WatchlistComponent } from './components/watchlist/watchlist.component';
 import { MovieDetailsComponent } from './components/movie-details/movie-details.component';
 import { ShowDetailsComponent } from './components/show-details/show-details.component';
+import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+import { AppStoreModule } from 'src/store/AppStoreModule';
 
 @NgModule({
   declarations: [
@@ -32,11 +34,13 @@ import { ShowDetailsComponent } from './components/show-details/show-details.com
     ShowsComponent,
     WatchlistComponent,
     MovieDetailsComponent,
-    ShowDetailsComponent
+    ShowDetailsComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ...AppStoreModule,
+    StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: !isDevMode() })
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,1 +1,34 @@
-<app-loader></app-loader>
+<div class="container mx-auto px-4 pt-16">
+  <div>
+    <h2
+      class="uppercase tracking-wider text-mellon-primary text-lg font-semibold"
+    >
+      Popular movies
+    </h2>
+    <h2
+      *ngIf="movies.length===0; else gridMoviesTemplate"
+      class="mt-5 uppercase tracking-wider text-onyx-primary-30 text-lg font-bold"
+    >
+      Could not load popular movies
+    </h2>
+    <ng-template #gridMoviesTemplate>
+      <app-grid [media]="movies"></app-grid>
+    </ng-template>
+  </div>
+  <div class="py-24">
+    <h2
+      class="uppercase tracking-wider text-mellon-primary text-lg font-semibold"
+    >
+      Popular shows
+    </h2>
+    <h2
+      *ngIf="shows.length===0; else gridShowsTemplate"
+      class="mt-5 uppercase tracking-wider text-onyx-primary-30 text-lg font-bold"
+    >
+      Could not load popular shows
+    </h2>
+    <ng-template #gridShowsTemplate>
+      <app-grid [media]="shows"></app-grid>
+    </ng-template>
+  </div>
+</div>
