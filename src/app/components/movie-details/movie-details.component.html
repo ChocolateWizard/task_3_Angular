@@ -46,7 +46,7 @@
 
         <div class="mt-12">
           <button
-            [ngClass]="getButtonClass()"
+            [appStyleButton]="movie"
             [disabled]="!isMovieDefined()"
             (click)="buttonClicked()"
           >

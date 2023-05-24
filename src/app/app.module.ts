@@ -21,6 +21,7 @@ import { AppStoreModule } from 'src/store/AppStoreModule';
 import { ActorGridComponent } from './components/actor/actor-grid/actor-grid.component';
 import { ActorCardComponent } from './components/actor/actor-card/actor-card.component';
 import { ScalePipe } from './pipes/scale.pipe';
+import { StyleButtonDirective } from './directives/style-button.directive';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { ScalePipe } from './pipes/scale.pipe';
     ActorGridComponent,
     ActorCardComponent,
     ScalePipe,
+    StyleButtonDirective,
   ],
   imports: [
     BrowserModule,

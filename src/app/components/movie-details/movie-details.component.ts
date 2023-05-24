@@ -36,12 +36,6 @@ export class MovieDetailsComponent {
     }
     return false;
   }
-  getButtonClass() {
-    if (this.isMovieInWatchlist()) {
-      return 'flex items-center rounded font-semibold px-5 py-4  transition ease-in-out duration-150 bg-onyx-tint text-onyx-primary-10 hover:bg-onyx-primary-30';
-    }
-    return 'flex items-center rounded font-semibold px-5 py-4 transition ease-in-out duration-150 bg-mellon-primary text-onyx-tint hover:bg-mellon-shade';
-  }
 
   buttonClicked() {
     if (this.movie !== undefined) {
